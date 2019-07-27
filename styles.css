@@ -1,0 +1,47 @@
+html {
+    background-color: #999;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+input, li, #button {
+    background-color: #222;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+.heading {
+    font-weight: 800;
+    /* TEXT SHADOW - offset-x | offset-y | blur-radius | color */
+    text-shadow: 2px 2px 2px #444;
+    color: #222;
+}
+
+.statement {
+
+}
+
+#button {
+    outline: none;
+    border: none;
+}
+
+#button:hover {
+    color: #999;
+    cursor: pointer;
+}
