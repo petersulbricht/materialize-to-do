@@ -2,25 +2,41 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Web App</title>
-        <link rel="stylesheet" href="styles.css"> <!-- CAN'T FORGET TO LINK CSS FILE -->
+        <title>Materialize To-Do</title>
+
+        <!-- K, WE'RE GONNA USE A CSS FRAMEWORK (MATERIALIZE, BOOTSTRAP, OR BOTH :) -->
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- My CSS changes -->
+        <link rel="stylesheet" href="new.css">
+
     </head>
     <body>
 
         <div class="container">
 
-            <h1 class="heading">Web App</h1>
-            <p class="statement">This is a new web app created using HTML, CSS, and JS...</p>
+            <h2 class="cyan-text text-darken-3">Materialize To-Do</h2>
 
-            <input id="item" type="text" name="list-item" placeholder="New List Item...">
-            <button id="button" type="button" name="button">Add</button>
+            <blockquote>
+                <a href="https://materializecss.com/" class="brand-logo center" target="_blank">Check Out Materialize CSS -></a>
+            </blockquote>
 
-            <ul id="items">
+            <input id="input" class="cyan-text text-darken-3" type="text" name="list-item" placeholder="New Task...">
+
+            <!-- THIS AREA NEEDS SOME NEW STYLING... -->
+            <button id="btn" class="cyan darken-3 waves-effect waves-light btn" type="button" name="button">Add Task</button>
+
+            <!-- SAME HERE... -->
+            <ul id="list" class="">
 
             </ul>
 
         </div>
 
         <script src="main.js"></script> <!-- CAN'T FORGET TO LINK JS FILE -->
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     </body>
 </html>

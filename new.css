@@ -1,0 +1,17 @@
+blockquote {
+    border-left: 5px solid #00838f;
+}
+
+a, li {
+    color: #00838f;
+}
+
+li {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+}
