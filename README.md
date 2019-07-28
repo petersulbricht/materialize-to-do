@@ -7,3 +7,5 @@ Current Features:
 
 * The ability to add tasks.
 * The ability to remove tasks. This feature is removing tasks at random, got fix that :)
+
+![Screenshot Of App](app-screenshot-01.JPG)
